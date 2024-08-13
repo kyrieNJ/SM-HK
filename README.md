@@ -13,9 +13,9 @@ With the booming development of social media, massive amounts of user posting da
 * numpy 1.24.3
 * argparse 1.4.0
 * scikit-learn 1.3.2
-* transformers =4.34.1
-* zh-core-web-sm =3.7.0
-* jieba =0.42.1
+* transformers 4.34.1
+* zh-core-web-sm 3.7.0
+* jieba 0.42.1
 
 ## Data pre-processing stage
 
