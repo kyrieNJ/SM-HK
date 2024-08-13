@@ -17,12 +17,14 @@ With the booming development of social media, massive amounts of user posting da
 * zh-core-web-sm =3.7.0
 * jieba =0.42.1
 
-## Data pre-processing stage (optional)
+## Data pre-processing stage
 
 * Download BERT-Chinese model with this [link](https://huggingface.co/google-bert/bert-base-chinese).
 * Download Senticnet_zh with this [link](https://sentic.net/downloads/) and unzip `senticnet_zh.zip`.
 * Generate post-symptomatic heterogeneous graphs of data corresponding to the dataset, run the code [DKHG_graph.py](./SM-HK/DKHG_graph.py).
-* NOTE: For convenience, we have put with the processed data files in the data folder, so you can start the training phase directly.
+
+## Sentiment-enhanced domain fine-tuning
+*  First generate this domain corpus with negative sentiment knowledge (DC-NSK), run the code [processdata.py](./SM-HK/finetune/processdata.py). Then fine-tune the model, run code [fine-tune.py](./SM-HK/finetune/fine-tune.py).
 
 ## Train stage
 * You can train the model, run the code [train.py](./SM-HK/train.py).
