@@ -1,1 +1,8 @@
 # SM-HK
+Code for our paper: SM-HK: Sentiment-aware Model for Early Depression Risk Detection
+
+# Abstract
+With the booming development of social media, massive amounts of user posting data have brought hope for early detection of depressed users. However, the data relied on for depression detection mainly comes from users who have been suffering from long-term illnesses and whose statements are full of significant negative depressive sentiment, making them difficult to use to detect whether a user is in the early depression. Moreover, existing methods have mainly focused on modelling semantic information on post texts while neglecting key information such as sentiment knowledge, depression domain knowledge and negative sentiment severity. In this work, we redefine depression detection as early depression risk detection and construct an associated early depression risk detection dataset. Meanwhile, we propose a sentiment-aware model fusing heterogeneous knowledge for depression risk prediction. The model fully and effectively fuses sentiment knowledge with depression domain knowledge by employing a multi-level knowledge fusion strategy to deeply explore the implicit representation of early depressed users. In addition, we propose an auxiliary task for user negative sentiment severity detection to effectively perceive the user's overall negative sentiment severity. The experimental results show that the model achieves state-of-the-art performance on the proposed dataset. In several experiments, we also verify the validity of the constructed dataset and the interpretability of the model.
+
+# Requirements
+
