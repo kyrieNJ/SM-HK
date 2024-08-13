@@ -1,4 +1,4 @@
-# dual-encoder4aste
+# SM-HK
 Code for our paper:
 SM-HK: Sentiment-aware Model for Early Depression Risk Detection
 
