@@ -20,7 +20,6 @@ from vocab import Vocab
 from data_utils import PDUDDataset
 from tqdm import tqdm
 import pickle
-from tensorboardX import SummaryWriter
 import torch.utils.data.distributed
 
 
@@ -243,7 +242,7 @@ if __name__ == '__main__':
     # Hyper Parameters
     parser = argparse.ArgumentParser()
     parser.add_argument('--model_name', default='SM-HK-BERT', type=str)
-    parser.add_argument('--dataset', default='RP2', type=str, help='')
+    parser.add_argument('--dataset', default='RP', type=str, help='')
     parser.add_argument("--hidden_dim", type=int, default=768, help="bert dim.")
     parser.add_argument("--num_class", type=int, default=3, help="Num of fsentiment class.")
     parser.add_argument("--aux_num_class", type=int, default=3, help="Num of fsentiment class.")
@@ -307,17 +306,13 @@ if __name__ == '__main__':
     }
 
     dataset_files = {
-        'WU3D': {
-            'train': './datasets/riskPredict/new/old_WU3D_train.json',
-            'test': './datasets/riskPredict/new/RP_test.json'
-        },
         'RP': {
             'train': './datasets/riskPredict/new/RP_train.json',
             'test': './datasets/riskPredict/new/RP_test.json'
         },
-        'RP2': {
-            'train': './datasets/riskPredict/RP_train.json',
-            'test': './datasets/riskPredict/new/RP_test.json'
+        'RP_en': {
+            'train': './datasets/riskPredict/new_en/RP_en_train.json',
+            'test': './datasets/riskPredict/new_en/RP_en_test.json'
         },
     }
     initializers = {

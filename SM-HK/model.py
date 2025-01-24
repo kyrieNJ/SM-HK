@@ -40,17 +40,11 @@ class SMHKEncoder(nn.Module):
         self.dense4gat = nn.Linear(args.nhead*args.bert_out_dim, args.bert_out_dim)  #线性层 隐藏层维度到bert维度
 
 
-        if args.reset_pooling:
-            self.reset_params(bert.pooler.dense)
-
         self.fcs = nn.Sequential(nn.Linear(args.bert_out_dim, args.bert_out_dim), nn.ReLU(),
                                  nn.Linear(args.bert_out_dim, args.bert_out_dim), nn.ReLU())
 
 
 
-    def reset_params(self, m):
-        if isinstance(m, nn.Linear):
-            nn.init.xavier_normal_(m.weight)
 
     def merge_tensor(self,bert_out,text_len,cprep):
         tm1=torch.IntTensor([bert_out.shape[1]]).repeat(bert_out.shape[0]).to(bert_out.device)
