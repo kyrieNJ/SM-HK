@@ -1,6 +1,6 @@
 # SM-HK
 Code for our paper:
-SM-HK: Sentiment-aware Model Fusing Heterogeneous Knowledge for Depression Risk Detection on Chinese Social Media
+SM-HK: Sentiment-aware Model Fusing Heterogeneous Knowledge for Depression Risk Detection on Social Media
 
 
 ## Requirements
