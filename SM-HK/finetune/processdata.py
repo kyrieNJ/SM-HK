@@ -45,6 +45,15 @@ def processall_sm(filename):
 
                         aux_sent = '词“' + j.text + '”可能具有'+tmpserve+'消极情感。'
 
+                        # if tmp_word_score > -0.181 and tmp_word_score <= 0:
+                        #     tmpserve = 'mild'
+                        # elif tmp_word_score > -0.251 and tmp_word_score <= -0.181:
+                        #     tmpserve = 'moderate'
+                        # elif tmp_word_score > -1 and tmp_word_score <= -0.251:
+                        #     tmpserve = 'severe'
+                        #
+                        # aux_sent = 'The word “' + j.text + '” may have a ' + tmpserve + ' negative sentiment. '
+
                         if aux_sent not in sentlist:
                             sentlist.append(aux_sent)
                 tmp_text=''
