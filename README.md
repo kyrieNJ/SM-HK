@@ -32,6 +32,10 @@ python ./SM-HK/train.py
 ```bash
 python ./SM-HK/infer.py 
 ```
+## Ethical Considerations
+The original datasets collected for the creation of the DR2D dataset were obtained from WU3D and STMHD. We strictly follow ethical principles and privacy protocols in order to protect user privacy and to ensure that anonymity is correctly applied in all mental health related texts.
+
+Although experiments on SM-HK have shown great performance, we emphasize that all predictions should only be used in non-clinical studies. Users experiencing physical or mental discomfort should seek help from a professional psychiatrist or clinician.
 
 ## Citation
 
