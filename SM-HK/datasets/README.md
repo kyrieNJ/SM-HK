@@ -6,7 +6,6 @@ Here is a sample of the data:
 ```js
 {
   "SMlabel": 2, 
-  
   "tweets": [
     {
       "tweet_content": "别告诉别人你今天难受过什么也别对别人说因为说了也没有用", 
