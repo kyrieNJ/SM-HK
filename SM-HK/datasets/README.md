@@ -3,9 +3,10 @@ DR2D datasets are now available for application.
 For access to the data and related code, please contact xxx. When reaching out, kindly provide details regarding your institution and the purpose of your request. Upon review, we will send you the required data.
 
 Here is a sample of the data:
-
+```js
 {
   "SMlabel": 2, 
+  
   "tweets": [
     {
       "tweet_content": "别告诉别人你今天难受过什么也别对别人说因为说了也没有用", 
@@ -120,3 +121,4 @@ Here is a sample of the data:
     "tweets_num": 12, 
     "risk_label": 2
   }
+```
