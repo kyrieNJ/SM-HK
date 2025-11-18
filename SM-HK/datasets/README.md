@@ -1,6 +1,6 @@
 DR2D datasets are now available for application.
 
-It can be download from [Baidu Netdisk](https://pan.baidu.com/s/1hnl40iPYr7Nn7znITBNPMg?pwd=zqix).
+It can be download from [Baidu Netdisk](https://pan.baidu.com/s/1CyX1ctg1fDklnmV1mFxQDg?pwd=tk3p).
 
 Here is a sample of the data:
 ```js
@@ -121,3 +121,4 @@ Here is a sample of the data:
     "risk_label": 2
   }
 ```
+
