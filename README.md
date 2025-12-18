@@ -40,10 +40,17 @@ Although experiments on SM-HK have shown great performance, we emphasize that al
 ## Citation
 
 If our work has been helpful to you, please mark references to our work in your research and thank you for your support.
+
 @article{wanESWAsm,
+
 	title={SM-HK: Sentiment-aware Model Fusing Heterogeneous Knowledge for Depression Risk Detection on Social Media},
+	
 	author={Wan, Yujie and Dong, Zaiquan and Li, Meiwen and Jiang, Baoxing and Zhu, Jingjing and Ju, Shenggen},
+	
 	journal={Expert Systems with Applications},
+	
 	pages={130194},
+	
 	year={2025},
+	
 }
