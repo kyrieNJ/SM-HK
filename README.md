@@ -41,11 +41,24 @@ Although experiments on SM-HK have shown great performance, we emphasize that al
 
 If our work has been helpful to you, please mark references to our work in your research and thank you for your support.
 ```bash
-@article{wanESWAsm,
-	title={SM-HK: Sentiment-aware Model Fusing Heterogeneous Knowledge for Depression Risk Detection on Social Media},
-	author={Wan, Yujie and Dong, Zaiquan and Li, Meiwen and Jiang, Baoxing and Zhu, Jingjing and Ju, Shenggen},
-	journal={Expert Systems with Applications},
-	pages={130194},
-	year={2025},
+@article{DBLP:journals/eswa/WanDLJZJ26,
+  author       = {Yujie Wan and
+                  Zaiquan Dong and
+                  Meiwen Li and
+                  Baoxing Jiang and
+                  Jingjing Zhu and
+                  Shenggen Ju},
+  title        = {{SM-HK:} Sentiment-aware model fusing heterogeneous knowledge for
+                  depression risk detection on social media},
+  journal      = {Expert Syst. Appl.},
+  volume       = {299},
+  pages        = {130194},
+  year         = {2026},
+  url          = {https://doi.org/10.1016/j.eswa.2025.130194},
+  doi          = {10.1016/J.ESWA.2025.130194},
+  timestamp    = {Sun, 04 Jan 2026 13:44:42 +0100},
+  biburl       = {https://dblp.org/rec/journals/eswa/WanDLJZJ26.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
 }
 ```
